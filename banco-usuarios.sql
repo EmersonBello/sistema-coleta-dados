@@ -1,0 +1,19 @@
+CREATE DATABASE formulario;
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  cpf VARCHAR(20) NOT NULL,
+  data_nascimento DATE NOT NULL,
+  genero VARCHAR(30) NOT NULL,
+  logradouro VARCHAR(100) NOT NULL,
+  bairro VARCHAR(100) NOT NULL,
+  numero VARCHAR(10) NOT NULL,
+  cidade VARCHAR(100) NOT NULL,
+  estado CHAR(2) NOT NULL,
+  cep VARCHAR(15) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  telefone VARCHAR(20) NOT NULL,
+  usuario VARCHAR(50) NOT NULL,
+  senha VARCHAR(50) NOT NULL
+)
